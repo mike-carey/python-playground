@@ -9,7 +9,7 @@ description = ""
 authors = [
     { name = "Mike Carey", email = "mike-carey@users.noreply.github.com" },
 ]
-license = "GPL-3.0-or-later"
+license = { "text" = "GPL-3.0-or-later" }
 
 dynamic = ["version"]
 
