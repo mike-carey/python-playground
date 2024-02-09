@@ -1,3 +1,7 @@
+# prebuilt wheels
+*.whl
+
+# @see https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,6 +131,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.direnv/
 
 # Spyder project settings
 .spyderproject
@@ -152,9 +157,39 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+# Common build directories
+build/
+dist/
+out/
+tmp/
+
+*.gz
+*.bak
+*.log
+*.tar
+*.tmp
+*.tgz
+*.zip
+
+*.deb
+*.rpm
+*.pkg
+
+##
+# OS Files
+##
+
+# Mac OS
+.DS_Store
+._*
+.Trashes/
+
+# Linux
+*~
+*.swp
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
